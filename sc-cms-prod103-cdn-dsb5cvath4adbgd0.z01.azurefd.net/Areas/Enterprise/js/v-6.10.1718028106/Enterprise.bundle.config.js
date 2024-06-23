@@ -1,0 +1,26 @@
+;(function(global) {
+	global.require = global.require || {};
+	global.require.paths = global.require.paths || {};
+	global.require.paths.Enterprise = "/Areas/Enterprise/js";
+	global.require.paths.moment = "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment-with-locales.min";
+	global.require.paths.cookie = "https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min";
+	global.require.paths.addtocalendar = "https://addtocalendar.com/atc/1.5/atc.min";
+	global.require.paths.addevent = "https://addevent.com/libs/atc/1.6.1/atc.min";
+	global.require.paths.TweenMax = "https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min";
+	global.require.paths.ScrollMagic = "https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min";
+	global.require.paths.AddIndicator = "https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min";
+	global.require.paths.SweetAlert = "https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.4.19/sweetalert2.all.min";
+	global.require.paths.ScrollToPlugin = "https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/plugins/ScrollToPlugin.min";
+	global.require.paths.maskedinput = "https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min";
+	global.require.paths.ellipsis = "https://www.allegisgroup.com/Areas/Enterprise/js/vendor/jquery.ellipsis.min";
+	global.require.paths.jqueryVisible = "https://cdnjs.cloudflare.com/ajax/libs/jquery-visible/1.2.0/jquery.visible.min";
+	global.require.paths.bootstrapSelect = "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min";
+	global.require.paths.domPurify = "https://cdnjs.cloudflare.com/ajax/libs/dompurify/2.4.0/purify.min";
+	global.require.bundles = global.require.bundles || {};
+	global.require.bundles['/Areas/Enterprise/js/Enterprise.bundle.js'] = ["Enterprise/Feature/BlogFilters","Enterprise/Feature/BlogListing","Enterprise/Feature/BlogTeaser","Enterprise/Feature/BoostedSearchResults","Enterprise/Feature/ButtonGoal","Enterprise/Feature/CookieConsent","Enterprise/Feature/CookieStatement","Enterprise/Feature/DidYouMean","Enterprise/Feature/DisqusComment","Enterprise/Feature/EventAddToCalendar","Enterprise/Feature/EventCard","Enterprise/Feature/EventDate","Enterprise/Feature/ExpansionSet","Enterprise/Feature/FeaturedBlogs","Enterprise/Feature/Form","Enterprise/Feature/GeolocationSort","Enterprise/Feature/JobAdvancedSearchGeneric","Enterprise/Feature/JobDetail","Enterprise/Feature/JobFeed","Enterprise/Feature/JobResultsCount","Enterprise/Feature/JobSearch","Enterprise/Feature/JobSort","Enterprise/Feature/JobTeaser","Enterprise/Feature/LanguageSelector","Enterprise/Feature/lazyload","Enterprise/Feature/LocationSearch/Client","Enterprise/Feature/LocationSearch/LocationSearchResults","Enterprise/Feature/LocationSearch/Map","Enterprise/Feature/LocationsList","Enterprise/Feature/LocationsSearchBox","Enterprise/Feature/Map/Google/GoogleDynamicMap","Enterprise/Feature/MustacheFieldPicker","Enterprise/Feature/MustacheTemplate","Enterprise/Feature/PageDate","Enterprise/Feature/Pagination","Enterprise/Feature/SearchAlphabet","Enterprise/Feature/SearchBoxExtended","Enterprise/Feature/SearchFilter","Enterprise/Feature/SearchFilterContainer","Enterprise/Feature/SearchRequest","Enterprise/Feature/SearchResultsBaseExtended","Enterprise/Feature/SearchResultsEnterprise","Enterprise/Feature/SearchResultsExtended","Enterprise/Feature/SearchResultsTagRestriction","Enterprise/Feature/SearchSort","Enterprise/Feature/SearchToggle","Enterprise/Feature/UrlHelper","Enterprise/Feature/VerticalCarousel","Enterprise/Feature/YoutubeVideo"];
+	global.require.shim = global.require.shim || {};
+	global.require.shim.ScrollToPlugin = {"deps":["TweenMax"]};
+	global.require.shim.AddIndicator = {"deps":["ScrollMagic"]};
+	global.require.shim.jqueryVisible = {"deps":["jquery"]};
+	global.require.map = global.require.map || {};
+})(this);

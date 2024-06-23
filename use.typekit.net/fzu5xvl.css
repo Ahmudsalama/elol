@@ -1,0 +1,36 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * canada-type-gibson:
+ *   - http://typekit.com/eulas/00000000000000003b9b0ba4
+ *   - http://typekit.com/eulas/00000000000000003b9b0ba5
+ *   - http://typekit.com/eulas/00000000000000003b9b0ba8
+ *
+ * © 2009-2024 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2018-11-02 13:57:36 UTC"}*/
+
+@import url("../p.typekit.net/p1232.css?s=1&amp;k=fzu5xvl&amp;ht=tk&amp;f=24352.24354.24355&amp;a=4123152&amp;app=typekit&amp;e=css");
+
+@font-face {
+font-family:"canada-type-gibson";
+src:url("af/b01614/00000000000000003b9b0ba4/27/l3eab?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&amp;fvd=n3&amp;v=3") format("woff2"),url("af/b01614/00000000000000003b9b0ba4/27/d3eab?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&amp;fvd=n3&amp;v=3") format("woff"),url("af/b01614/00000000000000003b9b0ba4/27/a3eab?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&amp;fvd=n3&amp;v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:300;font-stretch:normal;
+}
+
+@font-face {
+font-family:"canada-type-gibson";
+src:url("af/299bdc/00000000000000003b9b0ba5/27/le196?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&amp;fvd=n4&amp;v=3") format("woff2"),url("af/299bdc/00000000000000003b9b0ba5/27/de196?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&amp;fvd=n4&amp;v=3") format("woff"),url("af/299bdc/00000000000000003b9b0ba5/27/ae196?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&amp;fvd=n4&amp;v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"canada-type-gibson";
+src:url("af/795dd6/00000000000000003b9b0ba8/27/l5bba?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&amp;fvd=n6&amp;v=3") format("woff2"),url("af/795dd6/00000000000000003b9b0ba8/27/d5bba?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&amp;fvd=n6&amp;v=3") format("woff"),url("af/795dd6/00000000000000003b9b0ba8/27/a5bba?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&amp;fvd=n6&amp;v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:600;font-stretch:normal;
+}
+
+.tk-canada-type-gibson { font-family: "canada-type-gibson",sans-serif; }

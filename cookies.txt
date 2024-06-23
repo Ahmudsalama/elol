@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.allegisglobalsolutions.com	TRUE	/	FALSE	1999999999	shell#lang	en
+.hsforms.net	TRUE	/	FALSE	1999999999	__cf_bm	QfNXIn1FPmY.y9n4JmhXFm7_he0RRWjGCWxkit5J3aQ-1718336197-1.0.1.1-GWeQ8eAE1iVpc6_LZS_4.PgyReAu3WnQY3bOLKbxM_PiiZvFmxQ6OHpGCEUb_QGIoZfGc9d0njbvln4TkNAjGA
+www.allegisglobalsolutions.com	TRUE	/	FALSE	1999999999	ags#lang	en-GB
+www.allegisglobalsolutions.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+
